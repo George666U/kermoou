@@ -1,0 +1,74 @@
+.addblog {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* gap: 10px; */
+	width: 100%;
+}
+
+.addblog__item {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.addblog__item-button {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: background-color 0.1s ease-in-out;
+}
+
+.addblog__item-button:hover {
+	background-color: #f0f0f0;
+}
+
+.addblog__item__images {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+}
+
+.addblog__item__images img {
+	width: 200px;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
+
+.addblog__item input {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.addblog__item-full {
+	width: 100%;
+}
+
+.addblog__item textarea {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 100%;
+	min-height: 150px;
+	resize: vertical;
+}
+
+.addblog__item-save-button {
+	width: min-content;
+	padding: 4px 16px;
+	border-radius: 12px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin: 4px auto;
+	background-color: var(--primary-color);
+	transition: all 0.1s ease-in-out;
+}
+
+.addblog__item-save-button:hover {
+	background-color: #fff493;
+}

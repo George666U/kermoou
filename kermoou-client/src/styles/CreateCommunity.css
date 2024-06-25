@@ -1,0 +1,62 @@
+.create-community {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* gap: 10px; */
+	width: 100%;
+}
+
+.create-community__item {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.create-community__item-button {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: background-color 0.1s ease-in-out;
+}
+
+.create-community__item-button:hover {
+	background-color: #f0f0f0;
+}
+
+.create-community__item input {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.create-community__item-full {
+	width: 100%;
+}
+
+.create-community__item textarea {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 100%;
+	min-height: 150px;
+	resize: vertical;
+}
+
+.create-community__item-save-button {
+	width: min-content;
+	padding: 4px 16px;
+	border-radius: 12px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin: 4px auto;
+	background-color: var(--primary-color);
+	transition: all 0.1s ease-in-out;
+}
+
+.create-community__item-save-button:hover {
+	background-color: #fff493;
+}

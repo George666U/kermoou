@@ -1,0 +1,81 @@
+.addcar {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+.addcar__section {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.addcar__section__div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 10px;
+	width: 100%;
+}
+
+.addcar__item {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+.addcar__item-button {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: background-color 0.1s ease-in-out;
+}
+
+.addcar__item-button:hover {
+	background-color: #f0f0f0;
+}
+
+.addcar__item input {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.addcar__item-full {
+	width: 100%;
+}
+
+.addcar__item textarea {
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	width: 100%;
+	min-height: 150px;
+	resize: vertical;
+}
+
+.addcar__item-save-button {
+	width: min-content;
+	padding: 4px 16px;
+	border-radius: 12px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	margin: 4px auto;
+	background-color: var(--primary-color);
+	transition: all 0.1s ease-in-out;
+}
+
+.addcar__item-save-button:hover {
+	background-color: #fff493;
+}

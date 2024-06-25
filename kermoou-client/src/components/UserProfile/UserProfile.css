@@ -1,0 +1,111 @@
+.user-profile {
+	display: flex;
+	flex-direction: column;
+	padding: 8px 0;
+	width: 100%;
+}
+
+.user-profile__section {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 8px;
+	border: #000 1px solid;
+	border-radius: 12px;
+}
+
+.user-profile__header {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.user-profile-pic {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.user-profile__cars__heading {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+}
+
+.user-profile__cars {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.user-profile__cars__heading-add-car {
+	color: #fff !important;
+	background-color: var(--primary-color);
+	text-decoration: none;
+	border-radius: 12px;
+	padding: 4px 8px;
+}
+
+.user-profile__cars__heading-add-car:hover {
+	background-color: #fff493;
+}
+
+.user-profile__cars__grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 0px;
+	gap: 20px;
+}
+
+.user-profile__cars__grid__item {
+	display: flex;
+	flex-direction: column;
+	width: 275px;
+	border-radius: 12px;
+	position: relative;
+	transition: all 0.1s ease;
+}
+
+.user-profile__cars__grid__item:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	opacity: 0.9;
+}
+
+.user-profile__cars__grid__item__image {
+	width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.user-profile__cars__grid__item--overlay-side {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: auto;
+	padding: 4px 8px;
+	display: flex;
+	align-items: center;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
+	background-color: rgba(32, 32, 32, 0.5);
+	color: var(--primary-color);
+}
+
+.user-profile__cars__grid__item--overlay-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: rgba(32, 32, 32, 0.5);
+	color: rgba(255, 255, 255, 0.8);
+}

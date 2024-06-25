@@ -1,0 +1,58 @@
+.post-big-card {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.post-big-card_author-info {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	/* align-items: center; */
+	justify-content: flex-start;
+	width: 150x;
+	max-width: 150px;
+}
+
+.post-big-card_image {
+	width: 150px;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.post-big-card_author-pic {
+	width: 100%;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.post-big-card_fields {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.post-big-card__post-icon {
+	width: 100%;
+}
+
+.post-big-card__link {
+	padding: 4px 10px;
+	border-radius: 12px;
+	border: black 1px solid;
+	font-size: 20px;
+	margin: 4px 0;
+	background-color: var(--primary-color);
+	transition: all 0.1s ease-in-out;
+}
+
+.post-big-card__link:hover {
+	background-color: #fff493;
+}

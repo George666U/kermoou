@@ -1,0 +1,122 @@
+.car-profile {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 8px 0;
+	width: 100%;
+}
+
+.car-profile__hero {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-radius: 12px;
+	position: relative;
+}
+.car-profile__hero__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 12px;
+	aspect-ratio: 2;
+}
+.car-profile__hero--overlay-bottom {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-color: rgba(32, 32, 32, 0.5);
+	color: rgba(255, 255, 255, 0.8);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+}
+
+.car-profile__hero--overlay-bottom-edit {
+	color: #636161 !important;
+	background-color: var(--primary-color);
+	text-decoration: none;
+	border-radius: 12px;
+	padding: 4px 8px;
+}
+
+.car-profile__hero--overlay-bottom-edit:hover {
+	background-color: #fff493;
+}
+
+.car-profile__section {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 8px;
+	border: #000 1px solid;
+	border-radius: 12px;
+}
+
+.car-profile__header {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.car-profile-user-pic {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.car-profile__logs__list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 0px;
+	gap: 8px;
+}
+
+.car-profile__logs__list__item {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	transition: all 0.1s ease;
+	background-color: whitesmoke;
+	padding: 8px;
+}
+
+.car-profile__logs__list__item:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	opacity: 0.9;
+}
+
+.car-profile__logs__list__item-image {
+	width: 150px;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	border-radius: 12px;
+}
+
+.car-profile__logs__list__item__info {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.car-profile__logs__list__item__info-title {
+	font-size: 18px;
+	font-weight: 500;
+}
